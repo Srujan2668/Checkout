@@ -67,6 +67,7 @@
 )
 
 (entity disputes
+        "Keep track of and act on your open disputes (also known as chargebacks) to submit the best possible response"
         (api-docs-url "https://api-reference.checkout.com/#operation/getDisputes")
         (source (http/get : url "/disputes"))
 
@@ -84,4 +85,3 @@
 
 
 )
-
